@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbb8b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url(Coco4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    
+}
+
+.container {
+   
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(119, 4, 4);
+    width: 300px;
+    background:transparent;
+    box-shadow:2px 2px 5px black;
+    animation: wave 2s ;    
+    border:3px solid black;
+
+
+}
+
+
+    @keyframes wave{
+0%{
+    transform:translateY(-200%);
+}
+100%{
+    transform:translateY(0);
+}
+}
+        
+    
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid whith;
+    margin-top :10px;
+}
+
+button {
+    padding: 15px;
+    background-color:blacksss;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top:10px;
+    font-weight:bold;
+   
+}
+
+button:hover {
+
+    border: 3px solid pink ;
+    font-size: 15px;
+    
+}
+
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+    font-size:20px;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Homepage Styling */
+#welcome-message {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#logout-button {
+    background-color: #f44336;
+}
+.lau{
+ color:black;
+ 
+
+}
+input:hover{
+    scale:1.1;
+    transition:0.5s;
+    border: 5px solid pink;
+}
+
+.home{
+    border: 5px solid violet;
+    padding:5px;
+    margin-top:500px;
+    margin-left: 50px;
+    border-radius:10px;
+    font-weight: bold;
+    color: aqua;
+}
+.Login{
+    color:black;
+    font-weight:bold;
+}
